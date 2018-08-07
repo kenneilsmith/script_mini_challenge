@@ -1,0 +1,45 @@
+#container {
+  width: 90%;
+  margin: 0 auto;
+  /* text-align: center; */
+  border: solid #ddd 5px;
+  float: right;
+}
+
+img {
+  width: 40%;
+  margin-left: 3px;
+}
+
+#addPhoto {
+  margin-bottom: 10px;
+  width: 100%;
+  border: solid #ddd 2px;
+  padding: 0 5px 5px 5px;
+  margin-top: 10px;
+}
+
+#addPhoto h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: blue;
+}
+
+#albums {
+  border: solid #ddd 2px;
+  padding: 5px;
+}
+
+h5 {
+  margin-bottom: 2px;
+}
+
+#albumInfo {
+  margin: 10px auto;
+  text-align: center;
+  width: 300px;
+  background: #eee;
+  padding-bottom: 10px;
+  padding-top: 2px;
+  display: none;
+}

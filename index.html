@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Workshop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+</head>
+
+<body>
+  <!-- CREATE ALBUM MODAL -->
+  <div id="albumInfo">
+    <label>
+      <h5>Album Name:</h5>
+      <input type="text" id="albumName" placeholder="Enter album name">
+      <br>
+      <button id="create" onclick="closeAndCreateAlbum()">Create</button>
+  </div>
+
+  <!-- SELECT ALBUM SECTION -->
+  <div id="albums">
+    <h5>Select Albums:</h5>
+    <select name="" id="albumList"></select>
+    <button id="select" onclick="ablumSelect()">Select Album</button>
+    <button id="add" onclick="openCreateAlbumModal()">Create New Album</button>
+  </div>
+
+  <!-- ADD PHOTO TO ALBUM SECTION -->
+  <div id="addPhoto">
+    <h3 id="albumTitle"></h3>
+    </label>
+    <label>
+      <h5>Photo Name:</h5>
+      <input type="text" name="" id="name">
+      <br>
+    </label>
+    <label>
+      <h5>Photo Location:</h5>
+      <input type="text" name="" id="location">
+
+    </label>
+    <label>
+      <h5>Photo Url:</h5>
+      <input type="text" name="" id="photoUrl">
+    </label>
+    <button id="add" onclick="addPhotoToAlbum()">Add Photo</button>
+    <!-- <button id="load">Load Photos</button> -->
+  </div>
+  <div id="container">
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
